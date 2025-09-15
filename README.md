@@ -13,7 +13,7 @@ Run:
 ```bash
 mvn spring-boot:run
 # or build a jar
-java -jar target/spring-boot-crud-h2db-logs-0.0.1-SNAPSHOT.jar
+java -jar target/spring-boot-crud-h2db-profiles-0.0.1-SNAPSHOT.jar
 ```
 
 API:
@@ -25,3 +25,6 @@ API:
 
 H2 Console: `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:demo`, user: `sa`, password empty).
 
+#spring profiles activated like local, dev, qa, stage and prod
+# spring.profiles.activate = local 
+# Initially load default properties file and then routing into based on profiles activation in that file
