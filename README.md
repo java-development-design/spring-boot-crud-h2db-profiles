@@ -26,5 +26,5 @@ API:
 H2 Console: `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:demo`, user: `sa`, password empty).
 
 #spring profiles activated like local, dev, qa, stage and prod
-# spring.profiles.activate = local 
-# Initially load default properties file and then routing into based on profiles activation in that file
+- spring.profiles.activate = local 
+- Initially load default properties file and then routing into based on profiles activation in that file
